@@ -21,4 +21,3 @@ Auth::routes();
 Route::get('test', [TestController::class, 'index']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/storeUerPermission', [TestController::class, 'storeUerPermission']);
-Route::get('test2', [TestController::class, 'Test213']);
