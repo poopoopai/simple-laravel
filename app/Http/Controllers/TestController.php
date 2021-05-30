@@ -35,8 +35,4 @@ class TestController extends Controller
         return view('home');
     }
 
-    public function Test213()
-    {
-        
-    }
 }
