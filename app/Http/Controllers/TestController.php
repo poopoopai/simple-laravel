@@ -43,6 +43,7 @@ class TestController extends Controller
 
     public function testGitRebase()
     {
+        // test 6
         return "測試 git rebase";
     }
 }
