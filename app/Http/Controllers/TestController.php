@@ -35,7 +35,12 @@ class TestController extends Controller
         return view('home');
     }
 
-    public function Test213()
+    public function testGit()
+    {
+        return "測試 git";
+    }
+
+    public function testGitRebase()
     {
         return "測試 git rebase";
     }
